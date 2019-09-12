@@ -1,0 +1,6 @@
+framework module GuruTraffSDK {
+  umbrella header "GuruTraffSDK.h"
+
+  export *
+  module * { export * }
+}
