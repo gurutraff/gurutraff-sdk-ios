@@ -17,31 +17,31 @@
 #pragma mark - Video
 
 /// Called after an Video has been loaded from the servers and cached locally.
-- (void)videoDidCache:(NSString*)placementId;
+- (void)videoDidCache:(NSString*)placementName;
 
 /// Called after an Video has attempted to load
 /// from the servers but failed.
-- (void)videoDidFailToLoad:(NSString *)placementId
+- (void)videoDidFailToLoad:(NSString *)placementName
                  withError:(GTRequestError)error;
 
 /// Called before an Video will be displayed on the screen.
-- (void)videoWindowWillDisplay:(NSString*)placementId;
+- (void)videoWindowWillDisplay:(NSString*)placementName;
 
 /// Called after an Video has been displayed on the screen.
-- (void)videoWindowDidDisplay:(NSString*)placementId;
+- (void)videoWindowDidDisplay:(NSString*)placementName;
 
 /// Called after an Video has been dismissed.
-- (void)videoDidDismiss:(NSString*)placementId;
+- (void)videoDidDismiss:(NSString*)placementName;
 
-- (void)videoWindowWillClose:(NSString*)placementId;
+- (void)videoWindowWillClose:(NSString*)placementName;
 
 /// Called after an Video has been closed.
-- (void)videoWindowDidClose:(NSString*)placementId;
+- (void)videoWindowDidClose:(NSString*)placementName;
 
 /// Called after an Video has been clicked.
-- (void)videoPostViewDidClick:(NSString*)placementId;
+- (void)videoPostViewDidClick:(NSString*)placementName;
 
-- (void)videoReceiveReward:(NSString*) placementId;
+- (void)videoReceiveReward:(NSString*) placementName;
 
 #pragma mark - Motivated Reward
 

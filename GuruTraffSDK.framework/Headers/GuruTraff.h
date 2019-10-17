@@ -18,11 +18,11 @@
 +(void) setAppUserId:(NSString*) gameUserId;
 
 
-+(void) showVideo: (NSString*) placementId;
++(void) showVideo: (NSString*) placementName;
 
-+(BOOL) isReadyVideo: (NSString*) placementId;
++(BOOL) isReadyVideo: (NSString*) placementName;
 
-+(void) cacheVideo: (NSString*) placementId;
++(void) cacheVideo: (NSString*) placementName;
 
 
 +(id<GuruTraffDelegate>) delegate;
