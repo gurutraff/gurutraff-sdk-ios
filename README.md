@@ -71,7 +71,8 @@ d) You can subscribe to the events with help of GuruTraffDelegate protocol, this
 
 Possible errors loading ads:
 - GTRequestErrorNoAds - no ads available
- - GTRequestErrorNoFreeSpace - there is no space on the disk
+- GTRequestErrorNoFreeSpace - there is no space on the disk
+- NoConnectionToServer - no connection to our server
         
 Note:
 It is possible not to cache the advertisement in advance, but in this case, it is impossible to predict when it will be loaded and displayed.
